@@ -1,19 +1,23 @@
 package OOPS;
 
-class Test {
-    String name = "Sathvik";
-    int age = 20;
+class Student {
+    String name;
+    int age;
 
-    void display(){
+    void introduce() {
         System.out.println("Name: " + name);
-        System.out.println("Age:" + age);
+        System.out.println("Age: " + age);
+
     }
 }
 
 public class ClassesAndObjects {
     public static void main(String [] args) {
-
-        Test obj = new Test();
-        obj.display();
+      
+        Student obj = new Student();
+        obj.name = "Sathvik";
+        obj.age = 20;
+        
+        obj.introduce();
     }
 }
