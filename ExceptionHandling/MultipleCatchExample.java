@@ -7,7 +7,7 @@ public class MultipleCatchExample {
             
             int[] numbers = {10,20,30,40,50};
 
-            System.out.println(numbers[5]);
+            System.out.println(numbers[8]);
 
         } catch (ArithmeticException e) {
 
